@@ -1,0 +1,12 @@
+# VisDrone person-only dataset
+# pedestrian + people classes are merged into a single 'person' class
+# This YAML assumes labels have already been remapped to person-only
+
+path: VisDrone
+
+train: images/train
+val: images/val
+test: images/test
+
+nc: 1
+names: ['person']
