@@ -1,3 +1,7 @@
+# NOTE: this file describes the INTENDED person-only setup. The labels actually
+# used for runs/train3 merged all 10 VisDrone classes into one class ("item"),
+# so the published results are class-agnostic detection. See README.
+#
 # VisDrone person-only dataset
 # pedestrian + people classes are merged into a single 'person' class
 # This YAML assumes labels have already been remapped to person-only
